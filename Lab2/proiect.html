@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<body bgcolor="lightgray">
+
+    <center>
+        <h1 title="Titlu proiect">Proiect de gestiune - ERP</h1>
+        <h3>Proiect realizat pentru gestiune interna a proceselor dintr-o firma</h3>
+    </center>
+
+    <div align="left">
+
+        <h4>Tema si problemele rezolvate de acest proiect</h4>
+
+        <p>
+            Motivul acestui proiect este dorinta de a centraliza si de a gestiona procesele efectuate intr-o firma,
+            astfel ca un administrator sa poata sa observe parcursul unei comenzi.<br>
+            Acesta doreste sa vizualizeze starea comenzilor si sa poata sa genereze rapoarte.
+            De asemenea se doreste semnalarea problemelor aparute in cadrul fiecarui departament.
+        </p>
+
+        <span title="ERP"><strong>Gestiune comenzi</strong></span>
+
+        <h4>Lista cu problemele ce doresc a fi rezolvate</h4>
+
+        <ul>
+            <li>Vizualizare comenzi</li>
+            <li>Gestiune erori</li>
+            <li>Generare avize</li>
+            <li>Gestiune departamente</li>
+        </ul>
+
+        <h4>Etapele realizarii proiectului</h4>
+
+        <ol start="1">
+            <li>Analiza cerintelor</li>
+            <li>Proiectarea sistemului</li>
+            <li>Implementarea aplicatiei</li>
+            <li>Testarea sistemului</li>
+        </ol>
+
+    </div>
+
+    <center>
+        <h3>Imagine reprezentativa -exemplu-</h3>
+        <img src="ERP.PNG" width="800" height="500" alt="Sistem ERP" title="Imagine sistem ERP">
+    </center>
+
+    <h3 align="center">Tabel departamente -exemplu-</h3>
+
+    <table border="1" width="500" align="center">
+
+        <tr bgcolor="green">
+            <th>Departament</th>
+            <th>Detalii</th>
+        </tr>
+
+        <tr>
+            <td valign="top">Planificare</td>
+            <td>Planifica comanda</td>
+        </tr>
+
+        <tr>
+            <td>Executie</td>
+            <td>Executa procesele</td>
+
+            
+        </tr>
+        <tr>
+            <td>Implementare</td>
+            <td>Implementeaza solutiile</td>
+
+            
+        </tr>
+        <tr>
+            <td>Facturare</td>
+            <td>Creaza factura pentru procese si solutii</td>
+        </tr>
+
+        
+
+    </table>
+
+    <p align="center">
+        <a href="http://176.223.123.207:5012/" target="_blank" name="siteERP" title="Link Aplicatie">
+            Aplicatia pentru test
+        </a>
+    </p>
+
+    <h3 align="center">Formular raport problema exemplu</h3>
+
+    <form>
+        <center>
+            <fieldset>
+
+                <legend>Raportare problema</legend>
+
+                Nume angajat:<br>
+                    <input type="text" name="nume" size="20" maxlength="30" value=""><br><br>
+
+                Departament:<br>
+                <select size="3" multiple>
+                    <option selected>Planificare</option>
+                    <option>Executie</option>
+                    <option>Implementare</option>
+                    <option>Facturare</option>
+                </select>
+                <br><br>
+
+                Tip problema:<br>
+                    <input type="checkbox" checked> Eroare sistem<br>
+                    <input type="checkbox"> Intarziere comanda<br>
+                <br>
+
+                Prioritate:<br>
+                    <input type="number" max="10" step="1"><br><br>
+
+                Comentarii:<br>
+                    <textarea rows="4" cols="40"></textarea><br><br>
+                
+                    <input type="text" value="Formularul trimis anonim" readonly><br><br>
+
+                    <input type="text" value="Trimite Formular (Ne-functional)" disabled>
+
+            </fieldset>
+        </center>
+    </form>
+
+    </body>
+</html>
